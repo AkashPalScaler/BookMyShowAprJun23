@@ -10,7 +10,7 @@ import java.util.Date;
 
 @Getter
 @Setter
-@Entity
+@Entity(name="show_bms")
 public class Show extends BaseModel {
     private Date startTime;
     private Date endTime;
